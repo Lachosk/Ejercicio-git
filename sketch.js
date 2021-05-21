@@ -9,4 +9,9 @@ function draw() {
 
   fill (255,255,0);
   ellipse (50,150,50,50);
+
+  fill (0);
+  text("Nicolas Orozco",70,50)
+ 
+  
 }
