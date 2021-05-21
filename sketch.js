@@ -1,3 +1,9 @@
+
+nic = new clasenicolas();
+seb = new clasesebastian();
+nat = new classnat();
+
+
 function setup() {
   createCanvas(400, 400);
 }
@@ -10,9 +16,7 @@ function draw() {
   fill (255,255,0);
   ellipse (random(0,100),150,50,50);
 
-  fill (0);
-  textAllign(CENTER);
-  text("Nicolas Orozco,Sebastian Mosquera,Natalia Martinez",70,50);
+
  
   fill (0,255,0);
   ellipse (random(0,100),150,50,50);
@@ -22,4 +26,7 @@ function draw() {
 
   fill (255,0,0);
   text("c",150,150);
+
+  fill (0);
+  text("Nicolas Orozco,Sebastian Mosquera,Natalia Martinez",70,50);
 }
