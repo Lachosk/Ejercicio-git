@@ -19,4 +19,7 @@ function draw() {
   
   text("b",80,150);
 
+
+  fill (255,0,0);
+  text("c",150,150);
 }
