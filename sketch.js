@@ -17,4 +17,5 @@ function draw() {
   fill (0,255,0);
   ellipse (150,150,50,50);
   
+  text("a",80,150);
 }
